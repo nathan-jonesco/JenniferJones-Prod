@@ -11,7 +11,7 @@ export default function Example() {
             the methods below. I am excited to get the chance to work with you!
           </p>
         </div>
-        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 sm:grid-cols-3 sm:gap-y-16 lg:mx-0 lg:max-w-none">
+        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 lg:grid-cols-3 sm:gap-y-16 lg:mx-0 lg:max-w-none">
           <div>
             <h3 className="border-l border-cyan-400 pl-6 text-xl font-bold text-white">
               📧 Email Me
