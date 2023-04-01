@@ -6,7 +6,6 @@ const navigation = [
   { name: '☎️ Call', href: 'tel:+13083043979' },
   { name: '📧 Email', href: 'mailto:jenniferjones@atlasmedstaff.com' },
   { name: '💬 Text', href: 'sms:+13083043979' },
-  { name: '🤯 FAQ', href: '#' },
 ]
 
 export default function Example() {
@@ -37,7 +36,7 @@ export default function Example() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-12">
+          <div className="hidden lg:flex lg:gap-x-12 pr-10">
             {navigation.map((item) => (
               <a
                 key={item.name}
@@ -47,14 +46,6 @@ export default function Example() {
                 {item.name}
               </a>
             ))}
-          </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-cyan-100"
-            >
-              Log in <span aria-hidden="true">&rarr;</span>
-            </a>
           </div>
         </nav>
         <Dialog
@@ -113,16 +104,7 @@ export default function Example() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-cyan-100 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing our next round of funding.{' '}
-              <a href="#" className="font-semibold text-cyan-600">
-                <span className="absolute inset-0" aria-hidden="true" />
-                Read more <span aria-hidden="true">&rarr;</span>
-              </a>
-            </div>
-          </div>
+        <div className="mx-auto max-w-2xl py-32 sm:py-48">
           <div className="text-center">
             <h1 className="text-3xl font-bold tracking-tight text-cyan-50 sm:text-6xl">
               Guiding Nurses to Their Dream Careers

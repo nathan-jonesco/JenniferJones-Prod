@@ -6,53 +6,37 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'What is a nursing recruiter?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'A nursing recruiter is a professional who helps nurses find job opportunities that match their skills, experience, and career goals.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'What are the benefits of working with a nursing recruiter?',
+      answer: 'Nursing recruiters have access to a wide range of job opportunities and can help nurses find positions that match their unique needs and preferences. They can also provide guidance and support throughout the job search process.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'What qualifications do I need to work with a nursing recruiter?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'You typically need to have a nursing degree and a valid nursing license to work with a nursing recruiter. Some recruiters may also require a certain level of experience or specialized skills.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'How much does it cost to work with a nursing recruiter?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'Most nursing recruiters do not charge candidates for their services. They are typically paid by the healthcare facilities that hire their candidates.',
     },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+        'How long does it take to find a job with a nursing recruiter?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'The time it takes to find a job with a nursing recruiter can vary depending on factors such as your qualifications, experience, and the current job market. It is important to work closely with your recruiter and be patient throughout the job search process.',
     },
     {
       question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+        'What types of job opportunities can nursing recruiters help me find?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
-    },
-  ],
-  [
-    {
-      question: 'How do you generate reports?',
-      answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
-    },
-    {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
-    },
-    {
-      question: 'I lost my password, how do I get into my account?',
-      answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'Nursing recruiters can help you find a variety of job opportunities, including permanent positions, temporary assignments, travel nursing positions, and per diem work.',
     },
   ],
 ]
@@ -76,18 +60,17 @@ export function Faqs() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             id="faq-title"
-            className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
+            className="font-display text-3xl tracking-tight text-cyan-900 sm:text-4xl"
           >
             Frequently asked questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, email our support team
-            and if you’re lucky someone will get back to you.
+            Below are some of the common questions I get asked as a Nursing Recruiter. As always, feel free to contact me if you need anything at all!
           </p>
         </div>
         <ul
           role="list"
-          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-3"
+          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-2"
         >
           {faqs.map((column, columnIndex) => (
             <li key={columnIndex}>
