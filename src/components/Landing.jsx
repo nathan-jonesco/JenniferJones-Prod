@@ -15,11 +15,16 @@ export default function Example() {
   return (
     <div className="bg-gradient-to-r from-cyan-600 to-blue-600">
       <header className="absolute inset-x-0 top-0 z-50">
-        <nav className=" flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <nav
+          className=" flex items-center justify-between p-6 lg:px-8"
+          aria-label="Global"
+        >
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <h1 className="text-3xl font-cursive h-8 w-auto text-cyan-50">👩🏼‍⚕️ Jennifer Jones</h1>
+              <h1 className="h-8 w-auto font-cursive text-3xl text-cyan-50">
+                👩🏼 Jennifer Jones
+              </h1>
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -34,25 +39,38 @@ export default function Example() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-md font-semibold leading-6 text-cyan-100">
+              <a
+                key={item.name}
+                href={item.href}
+                className="text-md font-semibold leading-6 text-cyan-100"
+              >
                 {item.name}
               </a>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-cyan-100">
+            <a
+              href="#"
+              className="text-sm font-semibold leading-6 text-cyan-100"
+            >
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
         </nav>
-        <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+        <Dialog
+          as="div"
+          className="lg:hidden"
+          open={mobileMenuOpen}
+          onClose={setMobileMenuOpen}
+        >
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <h1 className="text-3xl font-cursive h-8 w-auto text-cyan-600">Jennifer Jones</h1>
-
+                <h1 className="h-8 w-auto font-cursive text-3xl text-cyan-600">
+                  Jennifer Jones
+                </h1>
               </a>
               <button
                 type="button"
@@ -70,7 +88,7 @@ export default function Example() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="text-2xl -mx-3 block rounded-lg px-3 py-2 font-semibold tracking-wider leading-7 text-cyan-900 hover:bg-gray-50"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-2xl font-semibold leading-7 tracking-wider text-cyan-900 hover:bg-gray-50"
                     >
                       {item.name}
                     </a>
@@ -107,10 +125,14 @@ export default function Example() {
           </div>
           <div className="text-center">
             <h1 className="text-3xl font-bold tracking-tight text-cyan-50 sm:text-6xl">
-            Guiding Nurses to Their Dream Careers
+              Guiding Nurses to Their Dream Careers
             </h1>
             <p className="mt-6 text-lg leading-8 text-cyan-100">
-            Meet Jennifer Jones, your dedicated nursing recruiter. Jennifer is a mother of three and is married to Johnathan Jones. Currently living in a camper in the beautiful state of Tennessee, Jennifer's mobile lifestyle allows her to work with nurses from all over the country.
+              Meet Jennifer Jones, your dedicated nursing recruiter. Jennifer is
+              a mother of three and is married to Johnathan Jones. Currently
+              living in a camper in the beautiful state of Tennessee, her
+              mobile lifestyle allows her to work with nurses from all over the
+              country.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
@@ -119,7 +141,10 @@ export default function Example() {
               >
                 Get started
               </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-cyan-100">
+              <a
+                href="#"
+                className="text-sm font-semibold leading-6 text-cyan-100"
+              >
                 Learn more <span aria-hidden="true">→</span>
               </a>
             </div>
