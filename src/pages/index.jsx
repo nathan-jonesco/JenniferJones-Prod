@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import { Faqs } from '@/components/Faqs'
 import  Landing  from '@/components/Landing'
+import  Contact from '@/components/contact'
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <main>
         <Landing />
         <Faqs />
+        <Contact />
       </main>
     </>
   )
