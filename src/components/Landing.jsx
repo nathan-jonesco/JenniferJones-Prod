@@ -60,7 +60,7 @@ export default function Example() {
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <h1 className="h-8 w-auto font-cursive text-3xl text-blue-600">
-                  Jennifer Jones
+                  👩🏼 Jennifer Jones
                 </h1>
               </a>
               <button
