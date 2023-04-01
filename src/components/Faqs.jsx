@@ -49,7 +49,7 @@ export function Faqs() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             id="faq-title"
-            className="text-2xl font-bold text-bold text-blue-900 sm:text-4xl"
+            className="text-2xl font-bold text-blue-900 sm:text-4xl"
           >
             🤔 Common Questions
           </h2>

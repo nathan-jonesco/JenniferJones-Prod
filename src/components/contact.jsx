@@ -1,10 +1,10 @@
 export default function Example() {
   return (
-    <div className="bg-blue-900 py-24 sm:py-32">
+    <div className="bg-blue-900 py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-blue-200">
-            👍🏼 Ready to Begin?
+            😎 Ready to Begin?
           </h2>
           <p className="mt-6 text-lg leading-8 text-blue-50">
             If you are ready to start your next journey, contact me using one of
