@@ -4,11 +4,11 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-cyan-200">
-            Let's Get Started.
+            Ready to Begin?
           </h2>
           <p className="mt-6 text-lg leading-8 text-cyan-50">
             If you are ready to start your next journey, contact me using one of
-            the methods below. I am stoked to get the chance to work with you.
+            the methods below. I am excited to get the chance to work with you!
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 sm:grid-cols-3 sm:gap-y-16 lg:mx-0 lg:max-w-none">
