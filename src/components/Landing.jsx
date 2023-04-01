@@ -79,7 +79,7 @@ export default function Example() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="mt-5 block rounded-lg px-3 py-2 text-2xl font-semibold leading-7 tracking-wider text-blue-900 hover:bg-gray-50"
+                      className="mt-5 block rounded-lg px-3 py-2 text-2xl font-bold leading-7 tracking-wider text-blue-900 hover:bg-gray-50"
                     >
                       {item.name}
                     </a>
@@ -104,10 +104,10 @@ export default function Example() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48">
+        <div className="mx-auto max-w-2xl py-24 sm:py-24">
           <div className="text-center">
-            <h1 className="text-3xl font-bold tracking-tight text-blue-50 sm:text-6xl">
-              Guiding Nurses to Their Dream Careers
+            <h1 className="text-3xl text-blue-100 sm:text-6xl">
+              Guiding Nurses to Their <b>Dream Careers</b>
             </h1>
             <p className="mt-6 text-sm sm:text-lg leading-2 sm:leading-8 text-blue-100">
               Meet Jennifer Jones, your dedicated nursing recruiter. Jennifer is
