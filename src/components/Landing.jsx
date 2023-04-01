@@ -12,7 +12,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-gradient-to-tr from-cyan-400 to-blue-700">
+    <div className="bg-gradient-to-tr from-blue-400 to-blue-800">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav
           className=" flex items-center justify-between p-6 lg:px-8"
@@ -21,7 +21,7 @@ export default function Example() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <h1 className="h-8 w-auto font-cursive text-3xl text-cyan-50">
+              <h1 className="h-8 w-auto font-cursive text-3xl text-blue-200">
                 👩🏼 Jennifer Jones
               </h1>
             </a>
@@ -29,7 +29,7 @@ export default function Example() {
           <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-cyan-200"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-blue-200"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -41,7 +41,7 @@ export default function Example() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-md font-semibold leading-6 text-cyan-100"
+                className="text-md font-semibold leading-6 text-blue-100"
               >
                 {item.name}
               </a>
@@ -106,10 +106,10 @@ export default function Example() {
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48">
           <div className="text-center">
-            <h1 className="text-3xl font-bold tracking-tight text-cyan-50 sm:text-6xl">
+            <h1 className="text-3xl font-bold tracking-tight text-blue-50 sm:text-6xl">
               Guiding Nurses to Their Dream Careers
             </h1>
-            <p className="mt-6 text-sm sm:text-lg leading-2 sm:leading-8 text-cyan-100">
+            <p className="mt-6 text-sm sm:text-lg leading-2 sm:leading-8 text-blue-100">
               Meet Jennifer Jones, your dedicated nursing recruiter. Jennifer is
               a mother of three and is married to Johnathan Jones. Currently
               living in a camper in the beautiful state of Tennessee, her

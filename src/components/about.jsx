@@ -1,12 +1,12 @@
 export default function Example() {
     return (
-        <div className="bg-white py-10 sm:py-16">
+        <div className="bg-blue-50 py-10 sm:py-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
                     <p className="text-base font-semibold leading-7 text-blue-600">
                         Who is Jennifer Jones?
                     </p>
-                    <h1 className="mt-2 text-2xl font-bold tracking-tight text-gray-800 sm:text-4xl">
+                    <h1 className="mt-2 text-2xl font-bold tracking-tight text-blue-900 sm:text-4xl">
                         Your <b>Dedicated</b> Recruiter.
                     </h1>
                     <div className="mt-8 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
@@ -46,7 +46,7 @@ export default function Example() {
                             <div className="relative pb-10">
                                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                                     <img
-                                        className="mb-[-12%] rounded-xl shadow-2xl ring-2 ring-blue-700"
+                                        className="mb-[-12%] rounded-xl shadow-2xl ring-2 ring-blue-900"
                                         src="../JandJ.jpg"
                                         alt=""
                                     />
