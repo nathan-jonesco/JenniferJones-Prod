@@ -49,11 +49,11 @@ export function Faqs() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2
             id="faq-title"
-            className="text-3xl font-bold text-bold text-blue-800 sm:text-4xl"
+            className="text-2xl font-bold text-bold text-blue-900 sm:text-4xl"
           >
-            Common Questions
+            🤔 Common Questions
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
+          <p className="mt-4 text-lg tracking-tight text-blue-900">
            As always, feel free to contact me if you need anything at all!
           </p>
         </div>
@@ -66,10 +66,10 @@ export function Faqs() {
               <ul role="list" className="flex flex-col gap-y-8">
                 {column.map((faq, faqIndex) => (
                   <li key={faqIndex}>
-                    <h3 className=" text-lg leading-7 text-slate-900">
+                    <h3 className="font-semibold text-lg leading-7 text-blue-900">
                       {faq.question}
                     </h3>
-                    <p className="mt-2 text-sm text-slate-700">{faq.answer}</p>
+                    <p className="mt-2 text-sm text-blue-800">{faq.answer}</p>
                   </li>
                 ))}
               </ul>
