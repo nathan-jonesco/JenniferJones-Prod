@@ -1,59 +1,64 @@
 export default function Example() {
     return (
-      <div className="bg-white py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <p className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
-            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</h1>
-            <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
-              <div>
-                <p>
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                  vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                  erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                  semper sed amet vitae sed turpis id.
-                </p>
-                <p className="mt-8">
-                  Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                  fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                  adipiscing egestas.
-                </p>
-              </div>
-              <div>
-                <p>
-                  Erat pellentesque dictumst ligula porttitor risus eget et eget. Ultricies tellus felis id dignissim
-                  eget. Est augue maecenas risus nulla ultrices congue nunc tortor.
-                </p>
-                <p className="mt-8">
-                  Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                  fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                  adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-                </p>
-              </div>
+        <div className="bg-white py-10 sm:py-16">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+                <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+                    <p className="text-base font-semibold leading-7 text-cyan-600">
+                        Who is Jennifer Jones?
+                    </p>
+                    <h1 className="mt-2 text-2xl font-bold tracking-tight text-gray-800 sm:text-4xl">
+                        Your <b>Dedicated</b> Recruiter.
+                    </h1>
+                    <div className="mt-8 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-gray-700 lg:max-w-none lg:grid-cols-2">
+                        <div>
+                            <p>
+                                {`Jennifer is committed to ensuring that her clients land jobs on time and at an expected pay rate. She has helped countless nurses find fulfilling careers that match their unique skill sets and individual needs. Jennifer understands the importance of achieving a work-life balance, and her expertise in the field has helped her clients achieve just that.`}
+                            </p>
+                            <p className="mt-8">
+                            {`Jennifer's warm and approachable nature makes her a favorite
+                                among her clients. Nurses appreciate her honesty, transparency,
+                                and steadfast dedication to their success. Jennifer is a
+                                tireless advocate for her clients, and she goes above and beyond
+                                to make sure that they find the perfect job. She takes the time
+                                to understand each nurse's individual needs and works tirelessly
+                                to find job opportunities that match those needs.`}
+                            </p>
+                            <p className="mt-8">
+                            {`What sets Jennifer apart from other recruiters is her excellent
+                                communication skills and professionalism. She is passionate
+                                about helping nurses achieve their career goals and is committed
+                                to providing them with the support they need to succeed. Her
+                                clients trust her to guide them through the job search process,
+                                and she takes that responsibility very seriously.`}
+                            </p>
+                            <p className="mt-8">
+                                {`She is dedicated to providing her clients with the best possible
+                                service and support, and she is always available to answer
+                                questions and provide guidance. If you are a nurse looking for
+                                your next great opportunity, look no further than Jennifer
+                                Jones. She will help you take the first step towards your dream
+                                career. Contact her today to start your job search and
+                                experience the unrivaled dedication and support that only
+                                Jennifer can provide.`}
+                            </p>
+                        </div>
+                        <div>
+                            <div className="relative pb-10">
+                                <div className="mx-auto max-w-7xl px-6 lg:px-8">
+                                    <img
+                                        className="mb-[-12%] rounded-xl shadow-2xl ring-2 ring-cyan-700"
+                                        src="../JandJ.jpg"
+                                        alt=""
+                                    />
+                                    <div className="relative" aria-hidden="true">
+                                        <div className="absolute -inset-x-20 bottom-0 " />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="mt-10 flex">
-              <a
-                href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Get started
-              </a>
-            </div>
-          </div>
         </div>
-        <div className="relative overflow-hidden pt-16 lg:pt-20">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <img
-              className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"
-              src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
-              alt=""
-            />
-            <div className="relative" aria-hidden="true">
-              <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-white pt-[7%]" />
-            </div>
-          </div>
-        </div>
-      </div>
     )
-  }
-  
+}
