@@ -6,6 +6,8 @@ const navigation = [
   { name: '☎️ Call', href: 'tel:+13083043979' },
   { name: '📧 Email', href: 'mailto:jenniferjones@atlasmedstaff.com' },
   { name: '💬 Text', href: 'sms:+13083043979' },
+  { name: '📲 Facebook', href: 'https://www.facebook.com/profile.php?id=100091658103630&mibextid=LQQJ4d' },
+  { name: '🌐 Atlas Profile', href: 'https://atlasmedstaff.com/atlas-team/jennifer-jones/?fbclid=IwAR3UwbSpFdJfr-5zdGIuuqCkXNCvlMpmIoDxd_NhaHVj46NJ-Ec1hnSL0LA' },
 ]
 
 export default function Example() {
@@ -20,7 +22,7 @@ export default function Example() {
         >
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Jennifer Jones</span>
               <h1 className="h-8 w-auto font-cursive text-3xl text-blue-200">
                 👩🏼 Jennifer Jones
               </h1>
@@ -58,7 +60,7 @@ export default function Example() {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-blue-200 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">Jennifer Jones</span>
                 <h1 className="h-8 w-auto font-cursive text-3xl text-blue-600">
                   👩🏼 Jennifer Jones
                 </h1>
