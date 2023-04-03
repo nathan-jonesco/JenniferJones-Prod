@@ -4,7 +4,7 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-blue-200">
-            😎 Ready to Begin?
+            🧑🏼‍⚕️ Ready to Begin?
           </h2>
           <p className="mt-6 text-lg leading-8 text-blue-50">
             If you are ready to start your next journey, contact me using one of
@@ -42,6 +42,30 @@ export default function Example() {
               </a>
             </address>
           </div>
+
+          <div>
+            <h3 className="border-l border-blue-400 pl-6 text-xl font-bold text-white">
+            📲 Facebook
+            </h3>
+            <address className="border-l border-blue-200 pl-6 pt-2 text-lg not-italic text-blue-200">
+              <a href="https://www.facebook.com/profile.php?id=100091658103630&mibextid=LQQJ4d">
+                <p>Facebook.com</p>
+              </a>
+            </address>
+          </div>
+
+
+          <div>
+            <h3 className="border-l border-blue-400 pl-6 text-xl font-bold text-white">
+            🌐 Atlas Profile
+            </h3>
+            <address className="border-l border-blue-200 pl-6 pt-2 text-lg not-italic text-blue-200">
+              <a href="https://atlasmedstaff.com/atlas-team/jennifer-jones/?fbclid=IwAR3UwbSpFdJfr-5zdGIuuqCkXNCvlMpmIoDxd_NhaHVj46NJ-Ec1hnSL0LA">
+                <p>AtlasMedStaff.com</p>
+              </a>
+            </address>
+          </div>
+
         </div>
       </div>
     </div>
